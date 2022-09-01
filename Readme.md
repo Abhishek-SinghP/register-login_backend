@@ -6,7 +6,7 @@ Register :
 2. User will be providing the details in the fields , then he will click on submit button or register / signup button.
 3. FrontEnd will verify if all the fields are properly filled and correct . - Validating input fields: Regex regex101.com (Form Validation)
 4. FrontEnd will be having an API call which will pass this complete data in API to the backend.
-5. Validate emial if it is already present or not . Now its time to store the details in DB.
+5. Validate email if it is already present or not . Now its time to store the details in DB.
    ENCRYPTION : Information like passwords should not  be stored in the db directly . So we will encrypt the password and then only store it .so this encryption   code will be written in controllers .
 6. There is  a library known as bcrypt nmp: any text will be converted into a hash value .
 7. Once the bcryt has returned you hashed value , then we will store that in DB along with other user details .
